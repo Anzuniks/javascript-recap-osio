@@ -1,0 +1,19 @@
+# Top-most EditorConfig file
+root = true
+
+# Kaikki tiedostot
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# JavaScript, CSS ja HTML asetukset (sisennys 2 välilyöntiä)
+[*.{js,css,html}]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# Markdown tiedostot voivat olla vapaampia
+[*.md]
+trim_trailing_whitespace = false
