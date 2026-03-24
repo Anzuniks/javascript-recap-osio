@@ -21,6 +21,23 @@ Olen tehnyt tehtävät **1–3**, joista kertyy yhteensä **12 pistettä** (mini
 2. **Tehtävä 2:** Taulukko-operaatiot ja lajittelu  
 3. **Tehtävä 3:** Parillisten lukujen poiminta  
 
+
+## Recap 3 - Event Handling
+Tässä osiossa keskityttiin JavaScriptin tapahtumankäsittelyyn ja interaktiivisuuden lisäämiseen:
+- **TODO-lista:** Toteutettiin lista, jossa on tehtävien lisäys modaalin kautta, tehtävien kuittaaminen checkboxilla ja poistaminen `removeChild`-metodilla.
+- **Ravintolalista:** Luotiin aakkostettu lista ravintoloista. Toteutettiin "exclusive highlight" -toiminto, jossa klikattu rivi korostuu ja avaa modaalin ravintolan tarkemmilla tiedoilla.
+
+## Recap 4 - Geolocation & Distance
+Harjoiteltiin selaimen paikkatietojen hyödyntämistä:
+- Käytettiin `navigator.geolocation` API:a hakemaan käyttäjän koordinaatit.
+- Laskettiin ravintoloiden etäisyys käyttäjästä ja järjestettiin lista automaattisesti lähimmän mukaan.
+
+## Recap 5 - Leaflet Maps
+Viimeisessä osiossa siirrettiin data visuaaliselle kartalle:
+- Integroitiin **Leaflet.js** -kirjasto projektiin.
+- Luotiin interaktiivinen kartta, joka keskittyy käyttäjän sijaintiin.
+- Lisättiin ravintolat kartalle markereina, jotka avaavat popup-ikkunan klikattaessa.
+
 ## Työkalut ja ympäristö
 
 Projektissa on käytetty seuraavia työkaluja koodin laadun ja yhtenäisyyden varmistamiseksi:
